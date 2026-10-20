@@ -18,7 +18,7 @@ if nargin < 1 || isempty(fig)
     fig = gcf;
 end
 if nargin < 2 || isempty(style)
-    style = myPublicationPlots.styles.fullWidthDefault();
+    style = pubplots.styles.fullWidthDefault();
 end
 
 %-------------------------------

@@ -31,7 +31,7 @@ if nRows * nCols > 6
         'Layout %dx%d not supported: use at most 3x2 or 2x3.', nRows, nCols);
 end
 
-style = publicationStyle.JGCDsingleColumn();
+style = pubplots.styles.JGCDsingleColumn();
 
 in2cm = 2.54;
 
